@@ -48,7 +48,7 @@ export function Navbar() {
               <img
                 src={logoIcon}
                 alt="Xclusive Cuts"
-                className="w-11 h-11 object-contain dark:invert-0 invert brightness-0"
+                className="w-11 h-11 object-contain brightness-0 dark:invert"
               />
             </div>
             <div className="flex flex-col">

@@ -1,0 +1,457 @@
+Build a COMPLETE FRONTEND-ONLY luxury barber shop website for “Xclusive Cuts Barbershop” using:
+- React
+- Vite
+- Tailwind CSS
+- Framer Motion
+- React Icons
+- React Hot Toast
+- EmailJS
+
+IMPORTANT:
+- FRONTEND ONLY
+- NO BACKEND
+- NO FIREBASE
+- NO DATABASE
+- NO SUPABASE
+- Easy deployment on Netlify or Vercel
+- Beginner-friendly structure
+- Fully responsive
+- Production-ready UI
+- Mobile-first design
+- Cinematic luxury experience
+
+==================================================
+LOGO & BRANDING IMPORTANT
+==================================================
+
+I have a CUSTOM ICON/logo image that I want used in the navbar, footer, loading screen, favicon, and branding areas.
+
+IMPORTANT:
+- Place the uploaded icon/logo image BEFORE the text “Xclusive Cuts”
+- The icon should sit perfectly aligned beside the brand name
+- Use responsive logo sizing
+- Keep the branding modern and minimal
+- The logo area should feel premium and luxurious
+
+LOGO STYLE:
+- Icon on the left
+- “Xclusive Cuts” text beside it
+- “BARBERSHOP” smaller underneath or spaced below
+- Use typography inspired by the uploaded logo image
+- Clean monochrome branding
+- Modern artistic layout
+
+NAVBAR LOGO EXAMPLE:
+[ICON] XCLUSIVE CUTS
+          BARBERSHOP
+
+The logo should adapt beautifully on:
+- Mobile
+- Tablet
+- Desktop
+
+Use:
+- Smooth hover animations
+- Elegant transitions
+- Responsive sizing
+- Proper spacing
+
+==================================================
+NEW BRAND STYLE DIRECTION
+==================================================
+
+The entire website MUST follow the uploaded logo style and branding.
+
+DO NOT use gold colors.
+
+Use a premium monochrome color system:
+- Matte black
+- White
+- Light gray
+- Soft gray
+- Charcoal
+- Minimal grayscale luxury tones
+
+The website should feel:
+- Fashion-forward
+- Artistic
+- Premium
+- Minimal
+- Masculine
+- Clean
+- Cinematic
+- Modern streetwear luxury
+
+==================================================
+COLOR PALETTE
+==================================================
+
+PRIMARY COLORS:
+- #111111
+- #1c1c1c
+- #2b2b2b
+- #888888
+- #d9d9d9
+- #f5f5f5
+
+ACCENTS:
+- White glow effects
+- Matte gradients
+- Soft blur overlays
+- Smooth glass reflections
+
+NO GOLD COLORS ANYWHERE.
+
+==================================================
+RESPONSIVENESS & MEDIA QUERIES
+==================================================
+
+Create AMAZING responsiveness using:
+- Mobile-first design
+- Beautiful custom breakpoints
+- Fluid layouts
+- Clamp typography
+- Flexible grids
+- Elegant spacing
+- Adaptive scaling
+
+The website must look PERFECT on:
+- Small phones
+- Large phones
+- Tablets
+- Small laptops
+- Large desktops
+- Ultra-wide monitors
+
+Use advanced Tailwind responsive utilities:
+- sm:
+- md:
+- lg:
+- xl:
+- 2xl:
+
+Every section should transform beautifully instead of simply shrinking.
+
+MOBILE REQUIREMENTS:
+- No overflow
+- Smooth stacking layouts
+- Elegant mobile typography
+- Touch-friendly buttons
+- Responsive navbar
+- Fullscreen animated mobile menu
+- Perfect booking form responsiveness
+
+==================================================
+DESIGN STYLE
+==================================================
+
+Create a visually mind-blowing cinematic website using:
+- Monochrome luxury styling
+- Massive typography
+- Minimalist layouts
+- Artistic spacing
+- Blur glassmorphism
+- Floating grayscale gradients
+- Cinematic lighting
+- Smooth transitions
+- Soft shadows
+- Elegant hover interactions
+- Dynamic animations
+
+The website should feel like:
+- A luxury fashion website
+- A modern creative studio
+- A premium streetwear brand
+- A cinematic barber experience
+
+==================================================
+WEBSITE STRUCTURE
+==================================================
+
+1. CINEMATIC LOADING SCREEN
+- Animated logo reveal
+- Use uploaded icon/logo
+- Matte black background
+- Soft white glow animation
+- Smooth fade transition
+- Premium cinematic intro
+
+2. STICKY GLASS NAVBAR
+Include:
+- Custom icon/logo image
+- Xclusive Cuts text logo
+- Home
+- About
+- Services
+- Barbers
+- Gallery
+- Reviews
+- Booking
+- Contact
+- Book Now button
+
+FEATURES:
+- Transparent navbar
+- Blur background on scroll
+- Animated underline effects
+- Smooth hover states
+- Fullscreen mobile navigation
+- Modern transitions
+
+3. HERO SECTION
+FULLSCREEN cinematic hero.
+
+Include:
+- Dark monochrome barber background
+- Floating grayscale particles
+- Blur circles
+- Cinematic overlays
+- Massive typography
+
+HEADLINE:
+“Precision Cuts. Premium Experience.”
+
+SUBTITLE:
+“Lakeland’s destination for sharp fades, modern grooming, and elite barber culture.”
+
+BUTTONS:
+- Book Appointment
+- Call Now
+
+ADD:
+- Animated stats
+- Smooth reveal animations
+- Floating scroll indicator
+- Elegant monochrome buttons
+
+4. ABOUT SECTION
+Luxury storytelling layout.
+
+Include:
+- Stylish image collage
+- Floating blur cards
+- Animated counters
+- Professional atmosphere
+- Family-friendly environment
+- Modern + old-school blend
+
+COUNTERS:
+- 177+ Reviews
+- 1000+ Happy Clients
+- 5+ Expert Barbers
+- 4.9 Star Rating
+
+5. SERVICES SECTION
+Create premium monochrome glassmorphism cards.
+
+SERVICES:
+- Haircut
+- Skin Fade
+- Beard Trim
+- Kids Haircut
+- Shape Up
+- Hot Towel Shave
+- Hair + Beard Combo
+- Eyebrow Grooming
+
+FEATURES:
+- Matte hover effects
+- Floating animations
+- Minimal icons
+- Responsive grid
+- Blur backgrounds
+
+6. BARBERS SECTION
+Create stylish barber profile cards.
+
+BARBERS:
+- Carlos Cuts — 5.0 (439 reviews)
+- Melo — 5.0 (319 reviews)
+- Eden — 5.0 (136 reviews)
+- Dr. Cutz — 5.0 (36 reviews)
+- Emilio Cuts — 5.0 (11 reviews)
+- Kn0Barber — 5.0 (5 reviews)
+
+EACH CARD:
+- Monochrome overlays
+- Hover zoom
+- Floating shadows
+- Book button
+- Social icons
+- Minimal premium design
+
+7. PREMIUM GALLERY SECTION
+Create cinematic masonry gallery.
+
+Include:
+- Fade cuts
+- Beard styles
+- Kids cuts
+- Shop interior
+- Modern hairstyles
+
+FEATURES:
+- Hover zoom
+- Blur overlays
+- Lightbox modal
+- Smooth transitions
+- Lazy loading
+- Responsive masonry layout
+
+8. TESTIMONIALS SECTION
+Use real reviews mentioning:
+- Carlos
+- Diego
+- Melo
+- Great atmosphere
+- Friendly staff
+- Professional environment
+- Kid-friendly service
+
+FEATURES:
+- Auto sliding animation
+- Floating glass cards
+- White star ratings
+- Motion effects
+- Monochrome styling
+
+9. PREMIUM BOOKING SECTION
+
+IMPORTANT:
+FRONTEND ONLY.
+
+Use EmailJS.
+
+EMAILJS:
+- Service ID: service_9s9baje
+- Template ID: template_tehbngj
+- Public Key: FKBSABKS-Qq7U-fbh
+
+INSTALL:
+npm install @emailjs/browser react-hot-toast
+
+FORM FIELDS:
+- Full Name
+- Email
+- Phone
+- Barber
+- Service
+- Date
+- Time
+- Notes
+
+DESIGN:
+- Matte black glassmorphism
+- White glowing borders
+- Floating blur effects
+- Elegant focus states
+- Animated labels
+- Smooth transitions
+- Responsive layout
+
+EMAILJS CODE:
+Use:
+
+emailjs.send(
+  'service_9s9baje',
+  'template_tehbngj',
+  {
+    customer_name: form.name,
+    customer_email: form.email,
+    customer_phone: form.phone,
+    barber: form.barber,
+    service: form.service,
+    appointment_date: form.date,
+    appointment_time: form.time,
+    notes: form.notes,
+  },
+  'FKBSABKS-Qq7U-fbh'
+)
+
+AFTER SUCCESS:
+- Show stylish toast notification
+- Reset form
+- Animated success modal
+
+10. CONTACT SECTION
+Include:
+- Embedded Google Map
+- Address
+- Phone
+- Business hours
+- Social icons
+- Call button
+- Directions button
+
+11. FOOTER
+Luxury monochrome footer with:
+- Custom logo icon
+- Brand name
+- Navigation links
+- Social icons
+- Minimal divider lines
+- Artistic layout
+
+==================================================
+EXTRA PREMIUM FEATURES
+==================================================
+
+ADD:
+- Dark/light mode toggle
+- Floating WhatsApp button
+- Scroll progress indicator
+- Custom scrollbar
+- Smooth scrolling
+- Cursor glow effect
+- Floating decorative shapes
+- Interactive hover effects
+- Section reveal animations
+- Sticky mobile booking button
+- Modern page transitions
+
+==================================================
+PERFORMANCE & STRUCTURE
+==================================================
+
+Use:
+- Reusable React components
+- React hooks
+- Tailwind CSS only
+- Professional clean folder structure
+
+FOLDERS:
+- /components
+- /sections
+- /assets
+- /data
+- /styles
+
+OPTIMIZE:
+- Lazy loaded images
+- Smooth performance
+- SEO-friendly structure
+- Accessible UI
+- Clean architecture
+
+==================================================
+FINAL REQUIREMENT
+==================================================
+
+The final website must feel:
+- Cinematic
+- Fashion-forward
+- Minimal luxury
+- Premium
+- Artistic
+- Interactive
+- Expensive
+- Modern
+- Memorable
+
+The website should feel like a luxury monochrome streetwear fashion brand mixed with a premium barber experience.
+
+At the end provide:
+- npm install commands
+- npm run dev
+- Netlify deployment steps
+- Vercel deployment steps

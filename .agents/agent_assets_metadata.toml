@@ -1,0 +1,56 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "IGIrt84WgL0syVmKe46M-"
+uri = "file://artifacts/xclusive-cuts/src/assets/gallery-1.png"
+type = "image"
+title = "Barber shop fade cut"
+
+[[generated]]
+id = "vPUlwv7IQ2TBuWYXJkKDx"
+uri = "file://artifacts/xclusive-cuts/src/assets/gallery-2.png"
+type = "image"
+title = "Barber shop beard trim"
+
+[[generated]]
+id = "9oYkJiHyFW08L3ZFjP6k7"
+uri = "file://artifacts/xclusive-cuts/src/assets/gallery-3.png"
+type = "image"
+title = "Barber shop interior"
+
+[[generated]]
+id = "P_uDH6u63ltXaM_KWaZAg"
+uri = "file://artifacts/xclusive-cuts/src/assets/gallery-4.png"
+type = "image"
+title = "Barber shop tools"
+
+[[generated]]
+id = "QAz_fas-lxt5SY6R97XBs"
+uri = "file://artifacts/xclusive-cuts/src/assets/gallery-5.png"
+type = "image"
+title = "Barber working"
+
+[[generated]]
+id = "QjRkbb4q6Gm_esp2XcuXJ"
+uri = "file://artifacts/xclusive-cuts/src/assets/gallery-6.png"
+type = "image"
+title = "Hot towel shave"
+
+[[generated]]
+id = "zO94g8E8a1zJAxbFR69sT"
+uri = "file://artifacts/xclusive-cuts/src/assets/gallery-7.png"
+type = "image"
+title = "Barber shop mirror reflection"
+
+[[generated]]
+id = "-wg_CtDeELI7HoJe643Il"
+uri = "file://artifacts/xclusive-cuts/src/assets/gallery-8.png"
+type = "image"
+title = "Shape up detail"
+
+[[generated]]
+id = "BUHAVLGBytJaOZKaTJmlV"
+uri = "file://artifacts/xclusive-cuts/src/assets/gallery-9.png"
+type = "image"
+title = "Luxury barber products"

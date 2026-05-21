@@ -44,8 +44,12 @@ export function Navbar() {
         <div className="container mx-auto px-6 flex items-center justify-between">
           {/* Logo */}
           <a href="#home" className="flex items-center gap-3 z-50 group">
-            <div className="relative w-10 h-10 overflow-hidden rounded-full border border-primary/20 flex items-center justify-center bg-background group-hover:border-primary/50 transition-colors">
-              <img src={logoIcon} alt="Xclusive Cuts" className="w-6 h-6 object-contain filter invert contrast-200 dark:invert-0 dark:contrast-100" />
+            <div className="relative w-12 h-12 flex items-center justify-center shrink-0">
+              <img
+                src={logoIcon}
+                alt="Xclusive Cuts"
+                className="w-11 h-11 object-contain dark:invert-0 invert brightness-0"
+              />
             </div>
             <div className="flex flex-col">
               <span className="font-display text-xl tracking-widest leading-none">XCLUSIVE CUTS</span>

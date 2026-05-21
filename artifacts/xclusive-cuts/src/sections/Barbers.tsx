@@ -5,13 +5,14 @@ import meloImg from "@assets/melo_barber_1779379050256.jpeg";
 import edenImg from "@assets/eden_barber_1779379050256.jpeg";
 import drCutzImg from "@assets/Dr._Cutz_barber_1779379050255.jpeg";
 import knoImg from "@assets/Kn0_barber_1779379050253.jpeg";
+import emilioImg from "@assets/Emilio_barber_1779380515111.jpg";
 
 const barbers = [
   { name: "Carlos Cuts", rating: "5.0", reviews: 439, image: carlosImg },
   { name: "Melo", rating: "5.0", reviews: 319, image: meloImg },
   { name: "Eden", rating: "5.0", reviews: 136, image: edenImg },
   { name: "Dr. Cutz", rating: "5.0", reviews: 36, image: drCutzImg },
-  { name: "Emilio Cuts", rating: "5.0", reviews: 11, image: null, initials: "EC" },
+  { name: "Emilio Cuts", rating: "5.0", reviews: 11, image: emilioImg },
   { name: "Kn0Barber", rating: "5.0", reviews: 5, image: knoImg },
 ];
 

@@ -1,0 +1,57 @@
+3:02:23 PM: Failed during stage 'building site': Build script returned non-zero exit code: 2 (https://ntl.fyi/exit-code-2)
+3:02:23 PM: Netlify Build                                                 
+3:02:23 PM: ────────────────────────────────────────────────────────────────
+3:02:23 PM: ​
+3:02:23 PM: ❯ Version
+3:02:23 PM:   @netlify/build 35.13.4
+3:02:23 PM: ​
+3:02:23 PM: ❯ Flags
+3:02:23 PM:   accountId: 6a105e36714d9694bbcc5cf3
+3:02:23 PM:   baseRelDir: true
+3:02:23 PM:   buildId: 6a1061df88e4c2369ea60d40
+3:02:23 PM:   deployId: 6a1061df88e4c2369ea60d42
+3:02:23 PM:   packagePath: artifacts/xclusive-cuts
+3:02:23 PM: ​
+3:02:23 PM: ❯ Current directory
+3:02:23 PM:   /opt/build/repo
+3:02:23 PM: ​
+3:02:23 PM: ❯ Config file
+3:02:23 PM:   /opt/build/repo/artifacts/xclusive-cuts/netlify.toml
+3:02:23 PM: ​
+3:02:23 PM: ❯ Context
+3:02:23 PM:   production
+3:02:23 PM: ​
+3:02:23 PM: build.command from netlify.toml                               
+3:02:23 PM: ────────────────────────────────────────────────────────────────
+3:02:23 PM: ​
+3:02:23 PM: $ npm run build:netlify
+3:02:23 PM: npm error Missing script: "build:netlify"
+3:02:23 PM: npm error
+3:02:23 PM: npm error To see a list of scripts, run:
+3:02:23 PM: npm error   npm run
+3:02:23 PM: npm error A complete log of this run can be found in: /opt/buildhome/.npm/_logs/2026-05-22T14_02_23_220Z-debug-0.log
+3:02:23 PM: ​
+3:02:23 PM: "build.command" failed                                        
+3:02:23 PM: ────────────────────────────────────────────────────────────────
+3:02:23 PM: ​
+3:02:23 PM:   Error message
+3:02:23 PM:   Command failed with exit code 1: npm run build:netlify (https://ntl.fyi/exit-code-1)
+3:02:23 PM: ​
+3:02:23 PM:   Error location
+3:02:23 PM:   In build.command from netlify.toml:
+3:02:23 PM:   npm run build:netlify
+3:02:23 PM: ​
+3:02:23 PM:   Resolved config
+3:02:23 PM:   build:
+3:02:23 PM:     command: npm run build:netlify
+3:02:23 PM:     commandOrigin: config
+3:02:23 PM:     publish: /opt/build/repo/dist
+3:02:23 PM:     publishOrigin: config
+3:02:23 PM:   redirects:
+3:02:23 PM:     - from: /*
+      status: 200
+      to: /index.html
+  redirectsOrigin: config
+3:02:23 PM: Build failed due to a user error: Build script returned non-zero exit code: 2
+3:02:23 PM: Failing build: Failed to build site
+3:02:23 PM: Finished processing build request in 15.774s

@@ -36,20 +36,19 @@ export function Booking() {
     
     try {
       await emailjs.send(
-        "service_9s9baje", // As provided
-        "template_tehbngj", // As provided
+        "service_9s9baje",
+        "template_tehbngj",
         {
-          to_name: "Xclusive Cuts Team",
-          from_name: data.fullName,
-          from_email: data.email,
-          phone: data.phone,
+          customer_name: data.fullName,
+          customer_email: data.email,
+          customer_phone: data.phone,
           barber: data.barber,
           service: data.service,
-          date: data.date,
-          time: data.time,
-          message: data.notes || "No additional notes.",
+          appointment_date: data.date,
+          appointment_time: data.time,
+          notes: data.notes || "No additional notes.",
         },
-        "FKBSABKS-Qq7U-fbh" // As provided
+        "FKBSABKS-Qq7U-fbh"
       );
       
       toast.success("Appointment request sent successfully. We'll contact you to confirm.");

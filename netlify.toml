@@ -1,0 +1,9 @@
+[build]
+  base    = "artifacts/xclusive-cuts"
+  command = "npm install && npm run build:netlify"
+  publish = "dist"
+
+[[redirects]]
+  from   = "/*"
+  to     = "/index.html"
+  status = 200

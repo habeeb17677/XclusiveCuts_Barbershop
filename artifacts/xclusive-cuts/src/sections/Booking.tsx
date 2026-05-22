@@ -35,19 +35,30 @@ export function Booking() {
     setIsSubmitting(true);
     
     try {
+      const payload = {
+        customer_name: data.fullName,
+        customer_email: data.email,
+        customer_phone: data.phone,
+        barber: data.barber,
+        service: data.service,
+        appointment_date: data.date,
+        appointment_time: data.time,
+        notes: data.notes || "No additional notes.",
+      };
+
+      // Send to barbershop
       await emailjs.send(
         "service_9s9baje",
         "template_tehbngj",
-        {
-          customer_name: data.fullName,
-          customer_email: data.email,
-          customer_phone: data.phone,
-          barber: data.barber,
-          service: data.service,
-          appointment_date: data.date,
-          appointment_time: data.time,
-          notes: data.notes || "No additional notes.",
-        },
+        payload,
+        "FKBSABKS-Qq7U-fbh"
+      );
+
+      // Send confirmation to client — replace TEMPLATE_ID_CLIENT with your new template ID
+      await emailjs.send(
+        "service_9s9baje",
+        "TEMPLATE_ID_CLIENT",
+        payload,
         "FKBSABKS-Qq7U-fbh"
       );
       

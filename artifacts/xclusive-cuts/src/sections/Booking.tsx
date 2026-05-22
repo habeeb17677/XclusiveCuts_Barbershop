@@ -57,7 +57,7 @@ export function Booking() {
       // Send confirmation to client — replace TEMPLATE_ID_CLIENT with your new template ID
       await emailjs.send(
         "service_9s9baje",
-        "TEMPLATE_ID_CLIENT",
+        "template_tw4vgoz",
         payload,
         "FKBSABKS-Qq7U-fbh"
       );

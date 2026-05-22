@@ -1,11 +1,9 @@
 [build]
-  base    = "artifacts/xclusive-cuts"
-  command = "npm install && npm run build:netlify"
-  publish = "dist"
+  command = "pnpm --filter xclusive-cuts run build:netlify"
+  publish = "artifacts/xclusive-cuts/dist"
 
 [build.environment]
   NODE_VERSION = "22"
-  NPM_FLAGS    = "--legacy-peer-deps"
 
 [[redirects]]
   from   = "/*"

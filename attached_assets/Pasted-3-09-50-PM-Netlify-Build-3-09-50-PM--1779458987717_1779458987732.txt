@@ -1,0 +1,62 @@
+3:09:50 PM: Netlify Build                                                 
+3:09:50 PM: ────────────────────────────────────────────────────────────────
+3:09:50 PM: ​
+3:09:50 PM: ❯ Version
+3:09:50 PM:   @netlify/build 35.13.4
+3:09:50 PM: ​
+3:09:50 PM: ❯ Flags
+3:09:50 PM:   accountId: 6a105e36714d9694bbcc5cf3
+3:09:50 PM:   baseRelDir: true
+3:09:50 PM:   buildId: 6a10639c359f6866723fbc55
+3:09:50 PM:   deployId: 6a10639c359f6866723fbc57
+3:09:50 PM:   packagePath: artifacts/mockup-sandbox
+3:09:50 PM: ​
+3:09:50 PM: ❯ Current directory
+3:09:50 PM:   /opt/build/repo/artifacts/xclusive-cuts
+3:09:50 PM: ​
+3:09:50 PM: ❯ Config file
+3:09:50 PM:   /opt/build/repo/netlify.toml
+3:09:50 PM: ​
+3:09:50 PM: ❯ Context
+3:09:50 PM:   production
+3:09:50 PM: ​
+3:09:50 PM: build.command from netlify.toml                               
+3:09:50 PM: ────────────────────────────────────────────────────────────────
+3:09:50 PM: ​
+3:09:50 PM: $ npm install && npm run build:netlify
+3:09:51 PM: npm error code 127
+3:09:51 PM: npm error path /opt/build/repo/node_modules/.pnpm/react-hook-form@7.75.0_react@19.1.0/node_modules/react-hook-form
+3:09:51 PM: npm error command failed
+3:09:51 PM: npm error command sh -c husky
+3:09:51 PM: npm error sh: 1: husky: not found
+3:09:51 PM: npm error A complete log of this run can be found in: /opt/buildhome/.npm/_logs/2026-05-22T14_09_50_559Z-debug-0.log
+3:09:51 PM: ​
+3:09:51 PM: "build.command" failed                                        
+3:09:51 PM: ────────────────────────────────────────────────────────────────
+3:09:51 PM: ​
+3:09:51 PM:   Error message
+3:09:51 PM:   Command failed with exit code 127: npm install && npm run build:netlify (https://ntl.fyi/exit-code-127)
+3:09:51 PM: ​
+3:09:51 PM:   Error location
+3:09:51 PM:   In build.command from netlify.toml:
+3:09:51 PM:   npm install && npm run build:netlify
+3:09:51 PM: ​
+3:09:51 PM:   Resolved config
+3:09:51 PM:   build:
+3:09:51 PM:     base: /opt/build/repo/artifacts/xclusive-cuts
+3:09:51 PM:     command: npm install && npm run build:netlify
+3:09:51 PM:     commandOrigin: config
+3:09:51 PM:     environment:
+3:09:51 PM:       - NODE_VERSION
+3:09:51 PM:       - NPM_FLAGS
+3:09:51 PM:     publish: /opt/build/repo/artifacts/xclusive-cuts/dist
+3:09:51 PM:     publishOrigin: config
+3:09:51 PM:   redirects:
+3:09:51 PM:     - from: /*
+      status: 200
+      to: /index.html
+  redirectsOrigin: config
+3:09:51 PM: Build failed due to a user error: Build script returned non-zero exit code: 2
+3:09:52 PM: Failed during stage 'building site': Build script returned non-zero exit code: 2 (https://ntl.fyi/exit-code-2)
+3:09:52 PM: Failing build: Failed to build site
+3:09:52 PM: Finished processing build request in 18.897s

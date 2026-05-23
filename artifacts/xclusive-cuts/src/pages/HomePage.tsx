@@ -1,5 +1,4 @@
 import { ScrollProgress } from "@/components/ScrollProgress";
-import { FloatingWhatsApp } from "@/components/FloatingWhatsApp";
 import { ScrollToTop } from "@/components/ScrollToTop";
 import { Navbar } from "@/sections/Navbar";
 import { Hero } from "@/sections/Hero";
@@ -29,7 +28,6 @@ export default function HomePage() {
       
       <Footer />
       
-      <FloatingWhatsApp />
       <ScrollToTop />
       
       {/* Mobile sticky book button */}
